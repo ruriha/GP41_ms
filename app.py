@@ -102,6 +102,7 @@ db = firestore.client()
 
 #     return jsonify({"url": blob.public_url})
 
+# 公開URLからダウンロード
 # @app.route("/download")
 # def download_model():
 #     # 公開URL
