@@ -1,3 +1,7 @@
+#######################################################
+# 生成サイト（ローカル）
+#######################################################
+
 from flask import Flask, render_template, session, redirect, url_for, request, jsonify
 import firebase_admin
 from firebase_admin import credentials, storage, firestore
